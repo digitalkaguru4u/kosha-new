@@ -6,7 +6,7 @@ const env = {
   clientUrl: (process.env.CLIENT_URL || 'http://localhost:5173').replace(/\/$/, ''),
   serveFrontend: process.env.SERVE_FRONTEND === 'true',
   mongoUri: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/kosha',
-  jwtSecret: process.env.JWT_SECRET || '',
+  jwtSecret: process.env.JWT_SECRET || 'Kosha_9xP7mQ2vL8nR4tY6zA1sF5kD8wE3',
   adminEmail: (process.env.ADMIN_EMAIL || '').toLowerCase().trim(),
   adminPassword: process.env.ADMIN_PASSWORD || '',
   rzp: {
